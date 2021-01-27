@@ -1,1 +1,1 @@
-const number = 100000;
+const number = 1000000;
