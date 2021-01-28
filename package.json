@@ -6,7 +6,8 @@
   "scripts": {
     "test": "lerna run test --since HEAD",
     "prepublish": "npm run test",
-    "release": "lerna publish --conventional-commits --yes"
+    "release": "lerna publish --conventional-commits  --yes",
+    "migrate": "lerna publish from-git --conventional-commits  --yes"
   },
   "author": "",
   "license": "ISC",
